@@ -1,10 +1,13 @@
 package com.example.java_base;
 
 /**
- * 运算符
+ * 运算符 : Operator
  */
-public class YunSuanFu {
+public class Operator {
     public static void main(String[] args) {
+        /**
+         * 位运算
+         */
         int number = 11;
         //相当于除以2
         System.out.println(number >>> 1);

@@ -1,10 +1,14 @@
-package com.example.algorithm;
+package com.example.data_struct;
 
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
+/**
+ * 二叉树
+ * @param <AnyType>
+ */
 public class BinaryTree<AnyType extends Comparable<? super AnyType>> {
     //静态内部类
     private static class BinaryNode<AnyType> {

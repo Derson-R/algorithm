@@ -1,4 +1,4 @@
-package com.example.algorithm;
+package com.example.data_struct;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,7 +7,10 @@ import java.util.ListIterator;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
-public class QueueDemo {
+/**
+ * 队列
+ */
+public class Queue {
     public static void main(String[] args) {
         BlockingQueue arrayBlockingQueue = new ArrayBlockingQueue<>(1);
         /**
