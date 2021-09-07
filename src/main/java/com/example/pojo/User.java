@@ -1,6 +1,7 @@
 package com.example.pojo;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
@@ -9,9 +10,11 @@ import java.util.Objects;
 
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
 public class User implements Cloneable, Serializable {
     private String name;
     private String age;
+    private int high;
 
     @Override
     public Object clone() throws CloneNotSupportedException {

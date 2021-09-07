@@ -81,8 +81,8 @@ public class Singleton {
          　　情况1：类没有覆盖重写equals方法，则使用的是父类 Object 的 equals 方法。即通过 “==” 比较两个对象内存地址。
          　　情况2：如果覆盖重写了equals方法，一般，比较两个对象的内容是否相等。*/
 
-        User user6 = new User("q","18");
-        User user7 = new User("q","18");
+        User user6 = new User("q","18",180);
+        User user7 = new User("q","18",175);
         //上面两个本质就是不同的对象，所以下面返回的都是 false; 但是重写 User的equals方法，可以人为使这两个对象相等。
 
 

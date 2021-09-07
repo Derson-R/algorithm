@@ -14,9 +14,9 @@ import static java.util.stream.Collectors.toList;
 public class Collection {
     public static void main(String[] args) {
         HashSet<Object> objects = new HashSet<>();
-        User user = new User("q","18");
-        User user2 = new User("q","13");
-        User user3 = new User("q","15");
+        User user = new User("q","18",175);
+        User user2 = new User("q","13",175);
+        User user3 = new User("q","15",175);
         objects.add(user);
         objects.add(user2);
         //没有重写hashcode值说明是不同的对象，User重写hashcode跟equal说明是不同的对象
