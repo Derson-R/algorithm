@@ -3,6 +3,10 @@ package com.example.algorithm.sort.senior;
 import java.util.Arrays;
 
 /**
+ *   这里排序测试有问题，指针位置异常，做不了排序。掌握其中切分分治思想，递归思想即可
+ */
+
+/**
  * @author desener
  * @date 2021-09-07 13:29
  * <p>
@@ -29,8 +33,8 @@ import java.util.Arrays;
  **/
 public class Quick {
     public static void main(String[] args) {
-        //Integer[] a = {8, 4, 2, 6, 1, 7, 3};
-        Integer[] a = {8, 7, 6, 5, 4, 3, 2, 1};
+        Integer[] a = {4, 8, 2, 6, 1, 7, 3};
+        //Integer[] a = {8, 7, 6, 5, 4, 3, 2, 1};
         Quick.sort(a);
         System.out.println(Arrays.toString(a));
     }

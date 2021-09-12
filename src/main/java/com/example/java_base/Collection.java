@@ -10,6 +10,9 @@ import static java.util.stream.Collectors.toList;
 
 /**
  * 集合相关
+ *
+ * 常见测试小demo
+ * 参考一些技术网址：https://blog.csdn.net/fox_bert/article/details/90272656
  */
 public class Collection {
     public static void main(String[] args) {
