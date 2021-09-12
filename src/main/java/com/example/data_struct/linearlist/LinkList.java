@@ -2,6 +2,10 @@ package com.example.data_struct.linearlist;
 
 
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.LinkedList;
 
 /**
@@ -15,6 +19,15 @@ public class LinkList {
         LinkedList<Integer> objects = new LinkedList<>();
         //看linkedList的源码基本上就知道链表的结构
         objects.add(1);
+    }
+
+    @AllArgsConstructor
+    @NoArgsConstructor
+    @Data
+    public class Node<T> {
+        //存储元素
+        public T item;
+        public Node next;
     }
 
     //头结点
